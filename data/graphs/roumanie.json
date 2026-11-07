@@ -1,0 +1,196 @@
+{
+  "vertices": [
+    "Arad",
+    "Zerind",
+    "Sibiu",
+    "Timisoara",
+    "Oradea",
+    "Fagaras",
+    "Rimnicu",
+    "Lugoj",
+    "Mehadia",
+    "Drobeta",
+    "Craiova",
+    "Pitesti",
+    "Bucharest"
+  ],
+  "edges": [
+    {
+      "from": "Arad",
+      "to": "Sibiu",
+      "cost": 140.0
+    },
+    {
+      "from": "Arad",
+      "to": "Timisoara",
+      "cost": 118.0
+    },
+    {
+      "from": "Arad",
+      "to": "Zerind",
+      "cost": 75.0
+    },
+    {
+      "from": "Zerind",
+      "to": "Arad",
+      "cost": 75.0
+    },
+    {
+      "from": "Zerind",
+      "to": "Oradea",
+      "cost": 71.0
+    },
+    {
+      "from": "Sibiu",
+      "to": "Arad",
+      "cost": 140.0
+    },
+    {
+      "from": "Sibiu",
+      "to": "Fagaras",
+      "cost": 99.0
+    },
+    {
+      "from": "Sibiu",
+      "to": "Oradea",
+      "cost": 151.0
+    },
+    {
+      "from": "Sibiu",
+      "to": "Rimnicu",
+      "cost": 80.0
+    },
+    {
+      "from": "Timisoara",
+      "to": "Arad",
+      "cost": 118.0
+    },
+    {
+      "from": "Timisoara",
+      "to": "Lugoj",
+      "cost": 111.0
+    },
+    {
+      "from": "Oradea",
+      "to": "Sibiu",
+      "cost": 151.0
+    },
+    {
+      "from": "Oradea",
+      "to": "Zerind",
+      "cost": 71.0
+    },
+    {
+      "from": "Fagaras",
+      "to": "Bucharest",
+      "cost": 211.0
+    },
+    {
+      "from": "Fagaras",
+      "to": "Sibiu",
+      "cost": 99.0
+    },
+    {
+      "from": "Rimnicu",
+      "to": "Craiova",
+      "cost": 146.0
+    },
+    {
+      "from": "Rimnicu",
+      "to": "Pitesti",
+      "cost": 97.0
+    },
+    {
+      "from": "Rimnicu",
+      "to": "Sibiu",
+      "cost": 80.0
+    },
+    {
+      "from": "Lugoj",
+      "to": "Mehadia",
+      "cost": 70.0
+    },
+    {
+      "from": "Lugoj",
+      "to": "Timisoara",
+      "cost": 111.0
+    },
+    {
+      "from": "Mehadia",
+      "to": "Drobeta",
+      "cost": 75.0
+    },
+    {
+      "from": "Mehadia",
+      "to": "Lugoj",
+      "cost": 70.0
+    },
+    {
+      "from": "Drobeta",
+      "to": "Craiova",
+      "cost": 120.0
+    },
+    {
+      "from": "Drobeta",
+      "to": "Mehadia",
+      "cost": 75.0
+    },
+    {
+      "from": "Craiova",
+      "to": "Drobeta",
+      "cost": 120.0
+    },
+    {
+      "from": "Craiova",
+      "to": "Pitesti",
+      "cost": 138.0
+    },
+    {
+      "from": "Craiova",
+      "to": "Rimnicu",
+      "cost": 146.0
+    },
+    {
+      "from": "Pitesti",
+      "to": "Bucharest",
+      "cost": 101.0
+    },
+    {
+      "from": "Pitesti",
+      "to": "Craiova",
+      "cost": 138.0
+    },
+    {
+      "from": "Pitesti",
+      "to": "Rimnicu",
+      "cost": 97.0
+    },
+    {
+      "from": "Bucharest",
+      "to": "Fagaras",
+      "cost": 211.0
+    },
+    {
+      "from": "Bucharest",
+      "to": "Pitesti",
+      "cost": 101.0
+    }
+  ],
+  "heuristics": {
+    "Arad": 366.0,
+    "Bucharest": 0.0,
+    "Craiova": 160.0,
+    "Drobeta": 242.0,
+    "Fagaras": 176.0,
+    "Lugoj": 244.0,
+    "Mehadia": 241.0,
+    "Oradea": 380.0,
+    "Pitesti": 100.0,
+    "Rimnicu": 193.0,
+    "Sibiu": 253.0,
+    "Timisoara": 329.0,
+    "Zerind": 374.0
+  },
+  "start": "Arad",
+  "goal": "Bucharest"
+}

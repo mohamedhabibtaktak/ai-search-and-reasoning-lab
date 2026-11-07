@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ia-app"
+version = "1.0.0"
+description = "IA & ML — Assignment 1 : systèmes experts et algorithmes de recherche"
+requires-python = ">=3.10"
+dependencies = []          # aucune dépendance obligatoire
+
+[project.optional-dependencies]
+viz = ["matplotlib>=3.7"]  # visualisation graphique du graphe
+dev = ["pytest>=7", "matplotlib>=3.7"]
+
+[project.scripts]
+ia-app = "ia_app.cli.main:main"
+ia-app-gui = "ia_app.gui.app:launch"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

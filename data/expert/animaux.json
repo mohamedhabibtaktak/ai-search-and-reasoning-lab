@@ -1,0 +1,120 @@
+{
+  "facts": [
+    "poils",
+    "mange_viande",
+    "couleur_fauve",
+    "taches_sombres"
+  ],
+  "rules": [
+    {
+      "name": "R1",
+      "if": [
+        "poils"
+      ],
+      "then": "mammifere"
+    },
+    {
+      "name": "R2",
+      "if": [
+        "allaite"
+      ],
+      "then": "mammifere"
+    },
+    {
+      "name": "R3",
+      "if": [
+        "plumes"
+      ],
+      "then": "oiseau"
+    },
+    {
+      "name": "R4",
+      "if": [
+        "pond_des_oeufs",
+        "vole"
+      ],
+      "then": "oiseau"
+    },
+    {
+      "name": "R5",
+      "if": [
+        "mammifere",
+        "mange_viande"
+      ],
+      "then": "carnivore"
+    },
+    {
+      "name": "R6",
+      "if": [
+        "mammifere",
+        "dents_pointues",
+        "griffes",
+        "yeux_avant"
+      ],
+      "then": "carnivore"
+    },
+    {
+      "name": "R7",
+      "if": [
+        "mammifere",
+        "sabots"
+      ],
+      "then": "ongule"
+    },
+    {
+      "name": "R8",
+      "if": [
+        "mammifere",
+        "rumine"
+      ],
+      "then": "ongule"
+    },
+    {
+      "name": "R9",
+      "if": [
+        "carnivore",
+        "couleur_fauve",
+        "taches_sombres"
+      ],
+      "then": "guepard"
+    },
+    {
+      "name": "R10",
+      "if": [
+        "carnivore",
+        "couleur_fauve",
+        "rayures_noires"
+      ],
+      "then": "tigre"
+    },
+    {
+      "name": "R11",
+      "if": [
+        "ongule",
+        "longues_pattes",
+        "long_cou",
+        "taches_sombres"
+      ],
+      "then": "girafe"
+    },
+    {
+      "name": "R12",
+      "if": [
+        "ongule",
+        "rayures_noires"
+      ],
+      "then": "zebre"
+    },
+    {
+      "name": "R13",
+      "if": [
+        "oiseau",
+        "ne_vole_pas",
+        "long_cou",
+        "longues_pattes",
+        "noir_et_blanc"
+      ],
+      "then": "autruche"
+    }
+  ]
+}
