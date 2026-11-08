@@ -86,4 +86,4 @@ Résultats de référence vérifiés (Russell & Norvig, Arad → Bucharest) : UC
 
 ## Structure
 
-Voir [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md). Tâches extraites du sujet : [`docs/TASKS.md`](docs/TASKS.md). Script de démonstration vidéo : [`docs/DEMO.md`](docs/DEMO.md).
+Voir [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md).
